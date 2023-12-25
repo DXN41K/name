@@ -1,0 +1,85 @@
+h2 {
+    text-align: center; 
+    display: block; 
+    margin-top: 50px; 
+    font-family: "Roboto", sans-serif;
+}
+
+a {
+    color: #808080; 
+    text-decoration: none; 
+    display: block; 
+    text-align: center;
+    line-height: 40px;
+    transition: color 0.3s;
+  }
+  
+  a:link,
+  a:visited {
+    color: #808080; 
+  }
+  
+  a:hover {
+    color: #ff0000;
+  }
+  
+  label {
+    color: #fff;
+  }
+
+  .btn {
+    display: block;
+    padding: 8px 24px;
+    margin: 10px auto;
+    font-size: 1.1rem;
+    font-weight: 500;
+    outline: none;
+    text-decoration: none;
+    color: #484b57;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 6px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  
+  .btn:hover,
+  .btn:focus,
+  .btn:active,
+  .btn:visited {
+    transition-timing-function: cubic-bezier(0.6, 4, 0.3, 0.8);
+    animation: gelatine 0.5s 1;
+  }
+  
+
+form {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgb(73, 57, 113);
+    border-radius: 10px;
+  }
+  
+  input {
+    width: 90%;
+    padding: 10px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
